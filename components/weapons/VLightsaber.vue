@@ -10,11 +10,11 @@ const { disabled } = foundationProps;
 
 export default {
   props: {
+    disabled,
     color: {
       type: String,
       default: 'red',
     },
-    disabled,
   },
   computed: {
     humanDisabled,
